@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ICRA2025-QuietWalk</title>
+  <link rel="icon" type="image/x-icon" href="static/images/aibo_icon.jpeg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Learning Quiet Walking for <br>a Small Home Robot</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/ryo-watanabe-3196989a/" target="_blank">Ryo Watanabe</a><sup>1</sup><sup>,</sup><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://takahiromiki.com/" target="_blank">Takahiro Miki</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://fanshi14.github.io/me/" target="_blank">Fan Shi</a><sup>1</sup><sup>,</sup><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://yuki-kadokawa.github.io/" target="_blank">Yuki Kadokawa</a><sup>1</sup><sup>,</sup><sup>4</sup>,
+              </span>
+              <br>
+              <span class="author-block">
+                <a href="https://www.fbjelonic.com/" target="_blank">Filip Bjelonic</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://haraduka.github.io/" target="_blank">Kento Kawaharazuka</a><sup>1</sup><sup>,</sup><sup>5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://mavt.ethz.ch/people/person-detail.MjMxMjQw.TGlzdC81NTksLTE3MDY5NzgwMTc=.html" target="_blank">Andrei Cramariuc</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html" target="_blank">Marco Hutter</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>ETH Zurich,<sup>2</sup>Sony Group Corporation,<sup>3</sup>National University of Singapore,<br>
+                <sup>4</sup>Nara Institute of Science and Technology,<sup>5</sup>The University of Tokyo<br>ICRA 2025
+              </span>
+              <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2402.13820" target="_blank" class="external-link button is-normal is-rounded is-dark"> <!-- TODO -->
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Video -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=bMaSCyZ1A50&list=PLhqs0Oka9VREJXexpxtmu28NCo5KPyWV3&index=1" target="_blank" class="external-link button is-normal is-rounded is-dark"> <!-- TODO -->
+                    <span class="icon">
+                      <i class="fa fa-video"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+
+                <!-- Poster -->
+                <!-- <span class="link-block">
+                  <a href="javascript:void(0);" class="external-link button is-normal is-rounded is-dark" onclick="return false;"> 
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Poster</span>
+                  </a>
+                </span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls loop muted height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/overview_quiet_walking.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="subtitle has-text-centered">
+          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        </h2> -->
+        <!-- <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('tree');
+            video.muted = true;
+            video.play().then(() => {
+              video.muted = false;
+            }).catch((error) => {
+              console.log('Autoplay was prevented:', error);
+            });
+          });
+        </script> -->
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              As home robotics gains traction, robots are 
+              increasingly integrated into households, offering companionship
+              and assistance. Quadruped robots, particularly those resembling
+              dogs, have emerged as popular alternatives for traditional pets.
+              However, user feedback highlights concerns about the noise these
+              robots generate during walking at home, particularly the loud
+              footstep sound. To address this issue, we propose a sim-to-real
+              based reinforcement learning (RL) approach to minimize the
+              foot contact velocity highly related to the footstep sound. Our
+              framework incorporates three key elements: learning varying
+              PD gains to actively dampen and stiffen each joint, utilizing
+              foot contact sensors, and employing curriculum learning to
+              gradually enforce penalties on foot contact velocity. Experiments
+              demonstrate that our learned policy achieves superior quietness
+              compared to a RL baseline and the carefully handcrafted Sony
+              commercial controllers. Furthermore, the trade-off between
+              robustness and quietness is shown. This research contributes to
+              developing quieter and more user-friendly robotic companions
+              in home environments.
+            </p>
+          </div>
+          <img src="static/images/overview.jpg" alt="MY ALT TEXT" style="width: 800px; height: auto; display: block; margin: 0 auto;" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container" style="width: 800px; margin: 0 auto;">
+        <div class="item">
+          <!-- Your image here -->
+          <h2 class="title is-3">
+            Method
+          </h2>
+          <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/method.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align: justify;">
+            We focus on minimizing the footstep sound by using sim-to-real based RL to reduce foot contact velocity in the physics simulator, which is highly related to the footstep sound in the real world. Firstly, we incorporate foot switch contact sensors to detect when the feet touch the ground softly.
+            Secondly, the policy estimates the joint PD gain scale as an action to stiffen joints during the stance phase for body support and dampen them during the contact phase. Thirdly, we employ a curriculum learning approach that initially trains the robot on basic locomotion and progressively applies penalties to noisy walking such as foot contact velocity to ensure quieter walking.
+          </p>
+          <!-- <img src="static/images/system_overview.png" alt="MY ALT TEXT" style="width: 100%; height: auto; display: block; margin: 0 auto;" /> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container" style="width: 800px; margin: 0 auto;">
+        <div class="item">
+          <!-- Your video here -->
+          <h2 class="title is-3">
+            Quietness
+          </h2>
+          <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/quietness.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align: justify;">
+            The quietness evaluation is shown. The microphone at the rear head measures the magnitude of the sound. 
+            As you can hear, the proposed RL policy is quieter than the other baselines.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container" style="width: 800px; margin: 0 auto;">
+        <div class="item">
+          <!-- Your video here -->
+          <h2 class="title is-3">
+            Robustness
+          </h2>
+          <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/robustness_result.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align: justify;">
+            To assess robustness, we varied the slope angle and used this value as a metric to compare robustness. The detailed experimental results are shown as follows.
+            While the quiet RL proposed policy can climb up a small slope, it cant climb up a steeper slope such as 7 degree. 
+            On the other hands, the loud RL baseline can climb up the steeper slope. 
+            There is a trade-off between quietness and robustness. Domain randomization parameters can tune it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre> <!-- TODO -->
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
