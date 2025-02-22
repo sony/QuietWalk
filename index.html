@@ -196,69 +196,60 @@
     </div>
   </section>
   <!-- End paper abstract -->
-
-  <section class="hero teaser">
-    <div class="hero-body">
-      <div class="container" style="width: 800px; margin: 0 auto;">
-        <div class="item">
-          <!-- Your image here -->
-          <h2 class="title is-3">
-            Method
-          </h2>
+  <section class="section hero is-light">
+    <div class="container is-max-desktop center-content">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method</h2>
+          <div class="content has-text-justified">
+            <p>
+              We focus on minimizing the footstep sound by using sim-to-real based RL to reduce foot contact velocity in the physics simulator, which is highly related to the footstep sound in the real world. Firstly, we incorporate foot switch contact sensors to detect when the feet touch the ground softly. Secondly, the policy estimates the joint PD gain scale as an action to stiffen joints during the stance phase for body support and dampen them during the contact phase. Thirdly, we employ a curriculum learning approach that initially trains the robot on basic locomotion and progressively applies penalties to noisy walking such as foot contact velocity to ensure quieter walking.
+            </p>
+          </div>
           <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
             <source src="static/videos/method.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <p style="text-align: justify;">
-            We focus on minimizing the footstep sound by using sim-to-real based RL to reduce foot contact velocity in the physics simulator, which is highly related to the footstep sound in the real world. Firstly, we incorporate foot switch contact sensors to detect when the feet touch the ground softly.
-            Secondly, the policy estimates the joint PD gain scale as an action to stiffen joints during the stance phase for body support and dampen them during the contact phase. Thirdly, we employ a curriculum learning approach that initially trains the robot on basic locomotion and progressively applies penalties to noisy walking such as foot contact velocity to ensure quieter walking.
-          </p>
-          <!-- <img src="static/images/system_overview.png" alt="MY ALT TEXT" style="width: 100%; height: auto; display: block; margin: 0 auto;" /> -->
         </div>
       </div>
     </div>
   </section>
 
-  <section class="hero teaser">
-    <div class="hero-body">
-      <div class="container" style="width: 800px; margin: 0 auto;">
-        <div class="item">
-          <!-- Your video here -->
-          <h2 class="title is-3">
-            Quietness
-          </h2>
+  <section class="section hero is-light">
+    <div class="container is-max-desktop center-content">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Quietness</h2>
+          <div class="content has-text-justified">
+            <p>
+              The quietness evaluation is shown. The microphone at the rear head measures the magnitude of the sound. As you can hear, the proposed RL policy is quieter than the other baselines.
+            </p>
+          </div>
           <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
             <source src="static/videos/quietness.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <p style="text-align: justify;">
-            The quietness evaluation is shown. The microphone at the rear head measures the magnitude of the sound. 
-            As you can hear, the proposed RL policy is quieter than the other baselines.
-          </p>
-        </div>
       </div>
     </div>
   </section>
 
-  <section class="hero teaser">
-    <div class="hero-body">
-      <div class="container" style="width: 800px; margin: 0 auto;">
-        <div class="item">
-          <!-- Your video here -->
-          <h2 class="title is-3">
-            Robustness
-          </h2>
+  <section class="section hero is-light">
+    <div class="container is-max-desktop center-content">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Robustness</h2>
+          <div class="content has-text-justified">
+            <p>
+              To assess robustness, we varied the slope angle and used this value as a metric to compare robustness. The detailed experimental results are shown as follows.
+              While the quiet RL proposed policy can climb up a small slope, it cant climb up a steeper slope such as 7 degree. 
+              On the other hands, the loud RL baseline can climb up the steeper slope. 
+              There is a trade-off between quietness and robustness. Domain randomization parameters can tune it.
+            </p>
+          </div>
           <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
             <source src="static/videos/robustness_result.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <p style="text-align: justify;">
-            To assess robustness, we varied the slope angle and used this value as a metric to compare robustness. The detailed experimental results are shown as follows.
-            While the quiet RL proposed policy can climb up a small slope, it cant climb up a steeper slope such as 7 degree. 
-            On the other hands, the loud RL baseline can climb up the steeper slope. 
-            There is a trade-off between quietness and robustness. Domain randomization parameters can tune it.
-          </p>
-        </div>
       </div>
     </div>
   </section>
